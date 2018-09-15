@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animation-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/oldManDance_01"
+    <item android:drawable="@drawable/basic_dance_01"
         android:duration="@integer/duration"/>
-    <item android:drawable="@drawable/oldManDance_02"
+    <item android:drawable="@drawable/basic_dance_02"
         android:duration="@integer/duration"/>
-    <item android:drawable="@drawable/oldManDance_03"
+    <item android:drawable="@drawable/basic_dance_03"
         android:duration="@integer/duration"/>
-    <item android:drawable="@drawable/oldManDance_04"
+    <item android:drawable="@drawable/basic_dance_04"
         android:duration="@integer/duration"/>
-    <item android:drawable="@drawable/oldManDance_05"
+    <item android:drawable="@drawable/basic_dance_05"
         android:duration="@integer/duration"/>
-    <item android:drawable="@drawable/oldManDance_06"
+    <item android:drawable="@drawable/basic_dance_06"
         android:duration="@integer/duration"/>
-    <item android:drawable="@drawable/oldManDance_07"
+    <item android:drawable="@drawable/basic_dance_07"
         android:duration="@integer/duration"/>
-    <item android:drawable="@drawable/oldManDance_08"
+    <item android:drawable="@drawable/basic_dance_08"
         android:duration="@integer/duration"/>
 </animation-list>

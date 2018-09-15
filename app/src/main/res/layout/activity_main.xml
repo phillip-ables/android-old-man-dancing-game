@@ -10,7 +10,7 @@
         android:id="@+id/imgAnimation"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/oldManDance_01"/>
+        app:srcCompat="@drawable/basic_dance_01"/>
         <!--that will be an icon:-->
 
     <Button
