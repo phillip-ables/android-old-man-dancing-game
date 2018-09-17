@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button btnDance = findViewById(R.id.btnDance);
+        Button btnWalk = findViewById(R.id.btnWalk);
 
         btnDance.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,6 +27,16 @@ public class MainActivity extends AppCompatActivity {
                 oldMan.setImageResource(R.drawable.basic_dance);
                 AnimationDrawable dancing_oldMan = (AnimationDrawable)oldMan.getDrawable();
                 dancing_oldMan.start();
+            }
+        });
+
+        btnWalk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ImageView oldMan_walk = findViewById(R.id.imgAnimation);
+                oldMan_walk.setImageResource(R.drawable.walk_walker);
+                AnimationDrawable walking_oldMan = (AnimationDrawable)oldMan_walk.getDrawable();
+                walking_oldMan.start();
             }
         });
     }
