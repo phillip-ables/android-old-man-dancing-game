@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-
-</selector>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/senior_steve_walk_01"
+        android:duration="@integer/duration"/>
+    <item android:drawable="@drawable/senior_steve_walk_02"
+        android:duration="@integer/duration"/>
+    <item android:drawable="@drawable/senior_steve_walk_03"
+        android:duration="@integer/duration"/>
+    <item android:drawable="@drawable/senior_steve_walk_04"
+        android:duration="@integer/duration"/>
+    <item android:drawable="@drawable/senior_steve_walk_05"
+        android:duration="@integer/duration"/>
+    <item android:drawable="@drawable/senior_steve_walk_06"
+        android:duration="@integer/duration"/>
+    <item android:drawable="@drawable/senior_steve_walk_07"
+        android:duration="@integer/duration"/>
+    <item android:drawable="@drawable/senior_steve_walk_08"
+        android:duration="@integer/duration"/>
+</animation-list>
